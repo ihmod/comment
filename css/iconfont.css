@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 3777972 */
+  src: url('iconfont.woff2?t=1668693350494') format('woff2'),
+    url('iconfont.woff?t=1668693350494') format('woff'),
+    url('iconfont.ttf?t=1668693350494') format('truetype');
+
+  src: url('iconfont.ttf?t=1668696120452') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-difangtechan:before {
+  content: "\e63d";
+}
+
+.icon-fruits:before {
+  content: "\e645";
+}
+
+.icon-rou:before {
+  content: "\e606";
+}
+.icon-11111:before {
+  content: "\e619";
+}

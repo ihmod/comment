@@ -1,0 +1,291 @@
+body {
+    background-color: #e7e8ea;
+
+}
+
+header {
+    display: flex;
+    background-color: #3280FC;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 999
+}
+
+
+header>div:nth-child(1) {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(53, 25, 194); */
+}
+
+header>div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: rgb(186, 45, 179); */
+
+}
+
+.tline {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.bline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 5px;
+
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.option {
+    width: 100%;
+    margin-bottom: 5px;
+    border: solid 1px rgb(193, 193, 193);
+}
+
+header>div:nth-child(3) {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: aquamarine; */
+
+
+}
+
+.caozuo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hnav {
+    width: 100%;
+    height: 45px;
+    /* border: solid 1px black; */
+    background-color: #333333;
+    z-index: 999;
+    position: fixed;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hnav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#backtop {
+    position: fixed;
+    bottom: 70px;
+    right: 4%;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: #3280FC;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #eae5e5;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    width: 48%;
+    height: 80%;
+    /* background-color: rgb(194, 25, 157); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* a img {
+    height: 30px;
+
+} */
+
+
+.hide {
+    top: -60px;
+
+}
+
+.hid {
+    display: none;
+
+}
+
+a {
+
+    color: #FFF;
+    /* font: 12px "幼圆"; */
+}
+
+.author {
+    color: #333333;
+
+}
+
+.hui {
+    color: rgb(142, 139, 139);
+
+}
+.toupiao{
+    color: rgb(155, 155, 155);
+    margin-right: 10px;
+}
+
+footer a {
+    background-color: #efecec;
+    color: #676b70;
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: #f36900;
+}
+
+.os {
+    color: #f36900;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+
+}
+
+.bg {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #ecd5d5;
+}
+.dheading{
+    font-size: large;
+    color: #000000;
+    font-weight: 300;
+}
+.oplist {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.selecting{
+    background-color: #3280FC;
+    /* z-index: 2; */
+}
+.getin {
+    float: right;
+    margin-left: 20px;
+}
+
+.dcaozuo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: 45px; */
+    margin-bottom: 20px;
+}
+.wai{
+    width: 100%;
+    /* height: 60px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: blue; */
+    background-color: #fff;
+    padding-top: 10px;
+
+
+}
+.nei{
+    width: 90%;
+    /* height: 50px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: solid 1px rgb(230, 227, 227);
+    /* border-top: solid 1px rgb(230, 227, 227); */
+    /* background-color: aquamarine; */
+}
+
+
+.searchresult {
+    font-size: larger;
+    line-height: 30px;
+    font-family: '幼圆';
+    border: solid 1px black;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 1%;
+    box-shadow: 5px 5px 3px black;
+    text-align: center;
+}
+
+#searchresult {
+    color: rgb(255, 0, 0);
+
+}
+
+
+.ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.ttle {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: '幼圆';
+    /* margin-left: 5px; */
+}
